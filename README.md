@@ -16,6 +16,17 @@
 5. Set up a social application in your Django admin using the settings obtained above:
     ![allauth_onadata](https://user-images.githubusercontent.com/372073/41282568-0f2b4856-6e3d-11e8-8a1e-6703b88f2a17.png)
 
+## Settings
+
+```python
+
+# the scope to send with the OAuth2 request
+ALLAUTH_ONA_SCOPE = ['read', 'write', 'groups']
+# the base URL of the onadata installation
+ALLAUTH_ONA_BASE_URL = "https://api.ona.io"  # no trailing slash
+
+```
+
 ## Testing
 
 ```sh
