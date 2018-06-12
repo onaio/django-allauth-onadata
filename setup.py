@@ -9,8 +9,7 @@ from setuptools import find_packages, setup
 setup(
     name='allauth_onadata',
     version=__import__('allauth_onadata').__version__,
-    description='A Django app that provides adds tasking to your Django '
-    'project.',
+    description='django-allauth provider for Onadata',
     license='Apache 2.0',
     author='Ona Kenya',
     author_email='tech@ona.io',
